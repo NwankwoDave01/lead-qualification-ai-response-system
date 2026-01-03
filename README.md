@@ -22,4 +22,34 @@ I was assigned by Sarah Chen to automate her lead qualification and email respon
 ---
 
 ### Workflow Overview
+Lead Form Webhook → Parse Lead Data → Check Lead Qualification
+├ Qualified → Generate Sarah’s Email (AI) → Validate AI Response
+│ ├ Empty → AI Fallback Message
+│ └ Success → Store Qualified Lead Result
+└ Unqualified → Store Unqualified Lead Result
+
+
+---
+
+### Deliverables
+✔ Working webhook receiver  
+✔ Conditional lead qualification  
+✔ AI-generated personalized email responses  
+✔ Fallback error handling to prevent workflow crashes  
+✔ JSON export matching live workflow  
+
+---
+
+### Results
+This system reduced lead handling from hours to seconds and ensured no loss of data during AI failures.
+
+---
+
+### Notes
+This project simulates a real client environment and demonstrates architectural clarity, debugging process, and AI prompt design.
+
+---
+
+**Author:** Nwankwo Dave
+
 
